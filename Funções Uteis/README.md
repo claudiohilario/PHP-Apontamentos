@@ -1,4 +1,4 @@
-##PHP - Funções Uteis
+# PHP - Funções Uteis
 
 
 | Ficheiro PHP | Descrição |
