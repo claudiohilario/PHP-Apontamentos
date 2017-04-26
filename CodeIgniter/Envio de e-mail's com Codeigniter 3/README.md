@@ -7,7 +7,7 @@ Este é um exemplo de envio de e-mails através do Codeigniter 3. Neste caso cri
 
 Configuração de e-mail - /config/email.php
 
-```
+```php
 <?php
 
 /**
@@ -26,7 +26,7 @@ $config['newline']   = "\r\n";
 ```
 
 Helper - /helpers/email_helper.php
-```
+```php
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -104,7 +104,7 @@ if( ! function_exists('enviar_email'))
 ```
 
 Controller Teste - /controller/Teste_email.php
-```
+```php
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
